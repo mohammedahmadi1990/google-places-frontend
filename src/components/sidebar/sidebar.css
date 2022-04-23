@@ -1,0 +1,47 @@
+.sidebar {
+    flex: 1;
+    height: calc(100vh - 50px);
+    background-color: rgb(236, 236, 236);
+    position: sticky;
+    margin-top: -10px;
+    margin-right: 50%;
+  }
+  
+  .sidebarWrapper {
+    color: #555;
+  }
+  
+  .sidebarMenu {
+    margin-bottom: 10px;
+  }
+  
+  .sidebarTitle {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(187, 186, 186);
+  }
+  
+  .sidebarList {
+    list-style: none;
+    padding: 5px;
+  }
+  
+  .sidebarListItem {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebarIcon{
+      margin-right: 5px;
+      font-size: 20px !important;
+  }
+
+  .textBox{
+      color: rgb(33, 147, 48);      
+  }
+  
+  .searchButton{
+      color: rgb(33, 147, 48);
+  }
